@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portfolio || Nurjannah</title>
+</head>
+
+<body>
+    <nav class="bg-primary border-gray-200 fixed top-0 w-full z-1000">
+        <div class="w-full flex flex-wrap items-center justify-between p-4">
+            <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <span class="self-center text-2xl font-semibold whitespace-nowrap text-sky-300">Portfolio<span
+                        class="text-white">Nurjannah</span></span>
+            </a>
+            <div class="flex md:order-2">
+                <div class="relative hidden md:block">
+                    <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                        <svg class="w-4 h-4 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 20 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                        </svg>
+                        <span class="sr-only">Search icon</span>
+                    </div>
+                    <input type="text" id="search-navbar"
+                        class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
+                        placeholder="Search...">
+                </div>
+                <button data-collapse-toggle="navbar-search" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white hover:text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                    aria-controls="navbar-search" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+                <div class="relative mt-3 md:hidden">
+                    <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                        <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 20 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                        </svg>
+                    </div>
+                    <input type="text" id="search-navbar"
+                        class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
+                        placeholder="Search...">
+                </div>
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+                    <li>
+                        <a href="#home"
+                            class="block py-2 px-3 text-gray-800 bg-sky-300 rounded-sm md:bg-transparent md:text-sky-300 md:p-0"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#service"
+                            class="block py-2 px-3 text-white hover:text-gray-800 rounded-sm hover:bg-sky-300 md:hover:bg-transparent md:hover:text-sky-300 md:p-0">Services</a>
+                    </li>
+                    <li>
+                        <a href="#about"
+                            class="block py-2 px-3 text-white hover:text-gray-800 rounded-sm hover:bg-sky-300 md:hover:bg-transparent md:hover:text-sky-300 md:p-0">About
+                            Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-12">
+        <!-- carousel -->
+        <div class="carousel" id="home">
+            <!-- list item -->
+            <div class="list">
+                <div class="item">
+                    <img src="assets/image/blank-screen-laptop-desk.jpg">
+                    <div class="content">
+                        <div class="author text-xl">Welcome to website </div>
+                        <div class="title">Nur<span class="text-blue-500">jannah</span></div>
+                        <div class="des text-lg text-sky-500 font-medium">
+                            Di sini, saya berbagi karya, pengalaman, dan perjalanan yang telah saya lalui. Jelajahi
+                            portofolio saya untuk mengetahui lebih banyak tentang apa yang saya ciptakan dan kerjakan!"
+                        </div>
+                        <div class="buttons">
+                            <button class="bg-blue-500 text-white">SEE MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class=" item">
+                    <img src="assets/image/early-mornings-office.jpg">
+                    <div class="content">
+                        <div class="author-1 text-blue-600">Menginspirasi melalui karya</div>
+                        <div class="des text-lg font-medium">
+                            Setiap karya memiliki cerita, dan setiap perjalanan membawa inspirasi. Melalui kreativitas
+                            dan pengalaman.
+                        </div>
+                        <div class="buttons">
+                            <button class="bg-blue-500 text-white">SEE MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class=" item">
+                    <img src="assets/image/laptop-with-bright-screen-mountains-books.jpg">
+                    <div class="content">
+                        <div class="author-1 text-xl">Berbagi melalui perjalanan</div>
+                        <div class="des text-lg text-blue-500 font-bold">
+                            saya membagikan apa yang saya ciptakan untuk menginspirasi orang lain, Jelajahi dunia saya
+                            dan temukan kisah di balik setiap karya.
+                        </div>
+                        <div class="buttons">
+                            <button class="bg-blue-500 text-white">SEE MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- list thumnail -->
+            <div class="thumbnail">
+                <div class="item">
+                    <img src="assets/image/blank-screen-laptop-desk.jpg">
+                    <div class="content">
+                        <div class="title">
+                            Name Slider
+                        </div>
+                        <div class="description">
+                            Description
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/image/early-mornings-office.jpg">
+                    <div class="content">
+                        <div class="title">
+                            Name Slider
+                        </div>
+                        <div class="description">
+                            Description
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/image/laptop-with-bright-screen-mountains-books.jpg">
+                    <div class="content">
+                        <div class="title">
+                            Name Slider
+                        </div>
+                        <div class="description">
+                            Description
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- next prev -->
+
+            <div class="arrows">
+                <button id="prev">
+                    < </button>
+                        <button id="next">></button>
+            </div>
+            <!-- time running -->
+            <div class="time"></div>
+        </div>
+    </section>
+
+    <section id="service" class="bg-blue-200 w-full p-4 pb-5">
+        <h1 class="text-5xl font-bold text-center pt-12">Services</h1>
+        <div class="w-[100%] h-px bg-gray-400 mx-auto my-5"></div>
+        <div class="overflow-hidden sm:grid sm:grid-cols-2">
+            <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+                <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+                    <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                    </h2>
+
+                    <p class="text-gray-500 md:mt-4">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro ipsam itaque beatae commodi
+                        pariatur quisquam ad deserunt consectetur maxime qui?
+                    </p>
+                </div>
+            </div>
+
+            <img alt=""
+                src="assets/image/Kegiatan/Kegiatan Penyelenggaraan Himpunan Mahasiswa Jurusan Sistem dan Teknologi Informasi.jpg"
+                class="h-56 w-full object-cover sm:h-full" />
+        </div>
+        <div class="w-[100%] h-px bg-gray-400 mx-auto my-5"></div>
+        <div class="overflow-hidden sm:grid sm:grid-cols-2">
+            <img alt="" src="assets/image/Kegiatan/Praktikum pada Mata Kuliah Kreatif Digital.jpg"
+                class="h-56 w-full object-cover sm:h-full" />
+
+            <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+                <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+                    <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                    </h2>
+
+                    <p class="text-gray-500 md:mt-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam
+                        sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat
+                        quisque ut interdum tincidunt duis.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about" class="bg-blue-100 w-full p-4">
+        <h1 class="text-5xl font-bold text-center pt-12">About Us</h1>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 m-2 lg:m-12">
+            <div href="#" class="group relative block overflow-hidden">
+                <img src="assets/image/profile/profile.jpg" alt=""
+                    class="h-auto w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72" />
+
+                <div class="relative border border-gray-100 bg-white p-6">
+
+                    <h3 class="text-lg font-medium text-gray-900">Nurjannah</h3>
+
+                    <p class="line-clamp-3 text-gray-700">
+                        Setiap karya memiliki cerita, dan setiap
+                        perjalanan membawa inspirasi. Melalui kreativitas dan pengalaman.
+                    </p>
+                </div>
+            </div>
+            <div href="#" class="group relative block overflow-hidden">
+                <img src="assets/image/Desain/Cover buku.jpg" alt=""
+                    class="h-auto w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72" />
+
+                <div class="relative border border-gray-100 bg-white p-6">
+
+                    <h3 class="text-lg font-medium text-gray-900">Nurjannah</h3>
+
+                    <p class="line-clamp-3 text-gray-700">
+                        Setiap karya memiliki cerita, dan setiap
+                        perjalanan membawa inspirasi. Melalui kreativitas dan pengalaman.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-primary">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="https://www.instagram.com/hillska8/" target="_blank"
+                    class="flex justify-center items-center text-teal-600 sm:justify-start gap-1 hover:underline">
+                    <ion-icon name="logo-instagram" class="text-2xl"></ion-icon>
+                    <p class="text-xl">@hillska8</p>
+                </a>
+                <a href="mailto:nur670880@gmail.com" target="_blank"
+                    class="flex justify-center items-center text-teal-600 sm:justify-start gap-1 hover:underline">
+                    <ion-icon name="mail-outline" class="text-2xl"></ion-icon>
+                    <p class="text-xl">nur670880@gmail.com</p>
+                </a>
+
+                <p class="mt-4 text-center text-sm text-white lg:mt-0 lg:text-right">
+                    Copyright &copy;Nurjannah 2025. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+
+</html>
